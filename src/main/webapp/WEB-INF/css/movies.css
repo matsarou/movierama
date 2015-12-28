@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.movie_box{
+	float:left;
+	padding: 20px;
+	margin-botton:40px;
+	border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.movie_description{
+	font-size:12px;
+}
+
+.movie_reviews{
+	float:right;
+	font-size:11px;
+	color:gray;
+	text-decoration: underline;
+}
+
+.error{
+	color:red;
+}
+}
