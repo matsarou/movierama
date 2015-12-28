@@ -38,11 +38,18 @@ Currently  there are no tests. To be added.
 
 ### FEW DETAILS ###
 I chose the Spring web MVC framework as architecture stack.
-The Rest API includes two methods to load the now playing movies from the two external APIs. You may see the interface MovieService and its implementation.
-The Rest API paths for all the rest calls  to the external APIs, are defined in the class MovieResources.java
 
-The Controller for my design is in the class MovieController.java.  
+The the **interface MovieService.java** includes the two methods of my Rest API.
+
+1. http://localhost:8080/movierama/movies/now_playing
+Load the now playing movies from the two external APIs 
+
+2. http://localhost:8080/movierama/movies/search?movie={movie_title}
+Search a movie in the local repository or the external APIs. 
+
+The **class MovieResources.java** contains all Rest API paths that i used for the calls to the external APIs.
+
+The **class MovieController.java** is the Controller of my mvc design.  
 For the View two jsp files exist:
-1. movies.jsp ( http://localhost:8080/movierama/movies/now_playing )
-
-2. search.jsp ( http://localhost:8080/movierama/movies/search?movie={movie_title} )
+1. movies.jsp 
+2. search.jsp 
