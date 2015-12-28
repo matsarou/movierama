@@ -7,7 +7,7 @@ It retrieves data and displays them.
 It also provides a basic search mechanism
 
 
-### How do I get set up and deploy? ### ###
+### How do I get set up and deploy? ###
 1. In a command prompt:
 	1. cd my_folder
 
@@ -32,5 +32,6 @@ It also provides a basic search mechanism
 4. jstl
 5. org.apache.commons.commons-lang3 
 
-* How to run tests
+
+***** How to run tests
 Currently  there are no tests. To be added.
