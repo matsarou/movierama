@@ -1,6 +1,6 @@
 # README #
 
-MovieRama is a small web application. It uses two APIs: 
+MovieRama is a SPRING web application. It uses as source, the data from two external APIs: 
 1. api.themoviedb.org and 
 2. api.rottentomatoes.com
 It retrieves data and displays them.
