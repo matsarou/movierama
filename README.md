@@ -3,7 +3,7 @@
 MovieRama is a SPRING web application. It uses as source, the data from two external APIs: 
 1. api.themoviedb.org and 
 2. api.rottentomatoes.com
-It retrieves data and displays them.
+And provides an API to display the movies in a list.
 It also provides a basic search mechanism
 
 
@@ -39,7 +39,7 @@ Currently  there are no tests. To be added.
 ### FEW DETAILS ###
 I chose the Spring web MVC framework as architecture stack.
 
-The the **interface MovieService.java** includes the two methods of my Rest API.
+The the **interface MovieService.java** includes the two methods of my API.
 
 1. http://localhost:8080/movierama/movies/now_playing
 Load the now playing movies from the two external APIs 
@@ -47,7 +47,7 @@ Load the now playing movies from the two external APIs
 2. http://localhost:8080/movierama/movies/search?movie={movie_title}
 Search a movie in the local repository or the external APIs. 
 
-The **class MovieResources.java** contains all Rest API paths that i used for the calls to the external APIs.
+The **class MovieResources.java** contains all API paths that i used for the calls to the external APIs.
 
 The **class MovieController.java** is the Controller of my mvc design.  
 For the View two jsp files exist:
